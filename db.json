@@ -1,14 +1,72 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  size: 5,
+    page: 1,
+    values: [
+      {
+        "uuid": "{f2c1d85d-bc18-4afa-8587-fcbe7028fec8}",
+        "state": {
+          "name": "COMPLETED"
+        },
+        "build_number": 1,
+        "created_on": "2018-03-23T10:06:04.593Z",
+        "target": {
+          "ref_type": "branch",
+          "ref_name": "master"
+        },
+        "duration_in_seconds": 9
+      },
+      {
+        "uuid": "{b458f46d-6f09-4bb0-86dc-1ef716d12d37}",
+        "state": {
+          "name": "COMPLETED"
+        },
+        "build_number": 2,
+        "created_on": "2018-03-27T14:53:06.02Z",
+        "target": {
+          "ref_type": "branch",
+          "ref_name": "BC-10982-PR-pipeline"
+        },
+        "duration_in_seconds": 0
+      },
+      {
+        "uuid": "{54e51970-b277-4210-87a8-dac4897619d1}",
+        "state": {
+          "name": "COMPLETED"
+        },
+        "build_number": 3,
+        "created_on": "2018-03-27T14:57:39.142Z",
+        "target": {
+          "ref_type": "branch",
+          "ref_name": "BC-10982-PR-pipeline"
+        },
+        "duration_in_seconds": 115
+      },
+      {
+        "uuid": "{58f58506-1b7b-43c4-9427-4df93b9f0e60}",
+        "state": {
+          "name": "COMPLETED"
+        },
+        "build_number": 4,
+        "created_on": "2018-03-28T11:17:04.979Z",
+        "target": {
+          "ref_type": "branch",
+          "ref_name": "BC-10982-PR-pipeline"
+        },
+        "duration_in_seconds": 15
+      },
+      {
+        "uuid": "{461a9ee4-f2a1-4a3b-92cf-202972bf1741}",
+        "state": {
+          "name": "COMPLETED"
+        },
+        "build_number": 5,
+        "created_on": "2018-03-28T11:20:06.528Z",
+        "target": {
+          "ref_type": "branch",
+          "ref_name": "BC-10982-PR-pipeline"
+        },
+        "duration_in_seconds": 31
+      }
+    ],
+    pagelen: 5
 }
